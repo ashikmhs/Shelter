@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:shelter/styles/styles.dart';
+import 'package:shelter/ui/styles/styles.dart';
 
 class myFormField extends StatelessWidget {
   final TextEditingController controller;

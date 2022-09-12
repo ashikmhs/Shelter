@@ -1,11 +1,12 @@
 import 'package:get/get.dart';
-import 'package:shelter/views/auth/sign_in.dart';
-import 'package:shelter/views/auth/sign_up.dart';
-import 'package:shelter/views/bottom_nav_controller/bottom_nav_controller.dart';
-import 'package:shelter/views/onboarding_screens.dart';
-import 'package:shelter/views/privacy-policy.dart';
-import 'package:shelter/views/splash_screen.dart';
-import 'package:shelter/views/user_form.dart';
+import 'package:shelter/ui/views/auth/sign_in.dart';
+import 'package:shelter/ui/views/auth/sign_up.dart';
+import 'package:shelter/ui/views/bottom_nav_controller/bottom_nav_controller.dart';
+import 'package:shelter/ui/views/onboarding_screens.dart';
+import 'package:shelter/ui/views/privacy-policy.dart';
+import 'package:shelter/ui/views/splash_screen.dart';
+import 'package:shelter/ui/views/user_form.dart';
+
 
 const String splash = '/splash-screen';
 const String onboarding = '/onboarding-screen';

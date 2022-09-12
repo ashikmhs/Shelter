@@ -5,9 +5,9 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:lottie/lottie.dart';
 import 'package:get/get.dart';
 import 'package:shelter/const/app_colors.dart';
-import 'package:shelter/route/route.dart';
-import 'package:shelter/styles/styles.dart';
 import 'package:dots_indicator/dots_indicator.dart';
+import 'package:shelter/ui/route/route.dart';
+import 'package:shelter/ui/styles/styles.dart';
 
 class OnBoardingScreen extends StatelessWidget {
   List<String> _lottieFiles = [

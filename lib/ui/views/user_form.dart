@@ -3,11 +3,9 @@ import 'package:flutter/material.dart';
 import 'package:shelter/bussiness_logics/form.dart';
 import 'package:shelter/const/app_colors.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:shelter/route/route.dart';
-import 'package:shelter/styles/styles.dart';
-import 'package:shelter/widgets/my-form-field.dart';
 import 'package:get/get.dart';
-import 'package:shelter/widgets/violate-color-button.dart';
+import 'package:shelter/ui/widgets/my-form-field.dart';
+import 'package:shelter/ui/widgets/violate-color-button.dart';
 import 'package:toggle_switch/toggle_switch.dart';
 
 class UserForm extends StatelessWidget {

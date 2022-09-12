@@ -5,8 +5,8 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get_storage/get_storage.dart';
 import 'package:shelter/const/app_strings.dart';
 import 'package:get/get.dart';
-import 'package:shelter/route/route.dart';
-import 'package:shelter/styles/styles.dart';
+import 'package:shelter/ui/route/route.dart';
+import 'package:shelter/ui/styles/styles.dart';
 
 class SplashScreen extends StatefulWidget {
   @override

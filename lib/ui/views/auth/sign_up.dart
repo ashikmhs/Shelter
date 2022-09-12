@@ -1,17 +1,14 @@
 // ignore_for_file: depend_on_referenced_packages
 
-import 'dart:ui';
-
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:shelter/bussiness_logics/auth.dart';
 import 'package:shelter/const/app_colors.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:shelter/route/route.dart';
-import 'package:shelter/styles/styles.dart';
-import 'package:shelter/widgets/my-form-field.dart';
-import 'package:shelter/widgets/violate-color-button.dart';
+import 'package:shelter/ui/route/route.dart';
 import 'package:get/get.dart';
+import 'package:shelter/ui/widgets/my-form-field.dart';
+import 'package:shelter/ui/widgets/violate-color-button.dart';
 
 class SignUp extends StatelessWidget {
   TextEditingController _emailController = TextEditingController();

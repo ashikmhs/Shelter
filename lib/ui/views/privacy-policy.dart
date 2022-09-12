@@ -3,8 +3,8 @@ import 'package:flutter/src/foundation/key.dart';
 import 'package:flutter/src/widgets/framework.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
-import 'package:shelter/route/route.dart';
-import 'package:shelter/widgets/violate-color-button.dart';
+import 'package:shelter/ui/route/route.dart';
+import 'package:shelter/ui/widgets/violate-color-button.dart';
 import 'package:syncfusion_flutter_pdfviewer/pdfviewer.dart';
 
 class PrivacyPolicy extends StatelessWidget {
