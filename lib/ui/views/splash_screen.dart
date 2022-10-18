@@ -22,7 +22,7 @@ class _SplashScreenState extends State<SplashScreen> {
     if (userId == null) {
       Get.toNamed(onboarding);
     } else {
-      Get.toNamed(bottomNavController);
+      Get.toNamed(mainHomeScreen);
     }
   }
 

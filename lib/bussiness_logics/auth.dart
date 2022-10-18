@@ -43,7 +43,7 @@ class Auth {
       print(authCredential);
       if (authCredential!.uid.isNotEmpty) {
         Fluttertoast.showToast(msg: 'Login Successfull');
-        Get.toNamed(bottomNavController);
+        Get.toNamed(mainHomeScreen);
       } else {
         print("sign up failed");
       }

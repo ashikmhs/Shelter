@@ -35,7 +35,7 @@ class PrivacyPolicy extends StatelessWidget {
                 () => _loaded == true
                     ? VioletButton(
                         'Agree',
-                        () => Get.toNamed(bottomNavController),
+                        () => Get.toNamed(mainHomeScreen),
                       )
                     : Text('Still Loading'),
               ),
